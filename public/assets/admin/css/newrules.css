@@ -1,0 +1,26 @@
+.modal-container{
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: #c5c5c5a1;
+    backdrop-filter: blur(6px);
+    z-index: 9;
+}
+.modal-content{
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    width: 600px;
+    padding: 10px;
+}
+
+.avatar-letter-sm{
+    background-color: #c5c5c5a1;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+}
